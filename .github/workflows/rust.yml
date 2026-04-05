@@ -25,4 +25,4 @@ jobs:
     - name: Run formatting
       run: cargo fmt -- --check
     - name: Run audit
-      run: cargo audit
+      run: cargo install cargo-audit && cargo audit
